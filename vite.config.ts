@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [react(), dts()],
   build: {
     lib: {
-      entry: path.resolve("src", "main.ts"),
+      entry: path.resolve("src", "mn-kits.ts"),
       name: "mn-kits",
       fileName: (format) => `mn-kits.${format}.js`,
     },
