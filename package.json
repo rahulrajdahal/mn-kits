@@ -12,7 +12,8 @@
   "dependencies": {
     "meistericons-react": "^1.0.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "vite-plugin-dts": "^3.5.3"
   },
   "main": "./dist/mn-kits.umd.js",
   "module": "./dist/mn-kits.es.js",
